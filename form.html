@@ -1,0 +1,113 @@
+<html>
+  <head>
+    <title>
+      Form Created by Tiwari Ji
+    </title>
+  </head>
+  <body>
+    <div align="center"><h1>Registration Form</h1></div>
+    <form action="/server">
+      
+      <label for="User">Username</label>
+      <input type="text" placeholder="Enter Your username" id="User">
+      <br>
+      
+      <label for="Date">D.O.B.</label>
+      <input type="date" placeholder="Date of Birth" id="Date">
+      <br>
+      
+      <label for="Email">Email</label>
+      <input type="email" placeholder="Enter your Email" id="Email">
+      <br>
+      
+      <label for="Pass">Password</label>
+      <input type="password" placeholder="Enter Your password" id="Pass">
+      <br>
+      
+      <label for="Mobile">Mobile No.</label>
+      <input type="number" placeholder="Enter Your Mobile no." id="Mobile">
+      <br>
+      
+      <div>
+        <label>Gender</label>
+        <input type="radio" id="Male" name="Gen" value="M">
+        <label for="Male">Male</label>
+        <input type="radio" id="Female" name="Gen" value="F">
+        <label for="Female">Female</label>
+        <input type="radio" id="None" name="Gen" value="O">
+        <label for="None">Others</label>
+      </div>
+      <div>
+        <label>Subjects</label>
+        <input type="checkbox" name="Sub" id="1" value="Math">
+        <label for="1">Maths</label>
+        <input type="checkbox" name="Sub" id="2" value="Phy">
+        <label for="2">Physics</label>
+        <input type="checkbox" name="Sub" id="3" value="Chem">
+        <label for="3">Chemistry</label>
+        <input type="checkbox" name="Sub" id="4" value="Eng">
+        <label for="4">English</label>
+        <input type="checkbox" name="Sub" id="5" value="Ph.E">
+        <label for="5">Physical Education</label>
+        <input type="checkbox" name="Sub" id="6" value="Bio">
+        <label for="6">Biology</label>
+        <input type="checkbox" name="Sub" id="7" value="His">
+        <label for="7">History</label>
+        <input type="checkbox" name="Sub" id="8" value="Geo">
+        <label for="8">Geographhy</label>
+        <input type="checkbox" name="Sub" id="9" value="Pol.">
+        <label for="9">Political Science</label>
+        <input type="checkbox" name="Sub" id="10" value="Hindi">
+        <label for="10">Hindi</label>
+      </div>
+      <br>
+      
+      <div>
+      <label for="profession">Choose your Profession</label>
+      <select name="profession" id="profession">
+      <option>Select Your Option</option>
+      <option value="stud">Student</option>
+      <option value="BM">Bussiness Man</option>
+      <option value="dev">Developers</option>
+      <option value="prof">Professors</option>
+      <option value="HM">Home Maker/House Wife</option>
+      </select>
+    </div>
+    <br>
+    
+    <div>
+      <label for="Scholarship">Select Your Family Annual Income</label>
+      <select name="income" id="Scholarship">
+        <option>Select</option>
+        <option value="<1">Less than 1 lakh</option>
+        <option value="<2.5">Less than 2.5 lakh</option>
+        <option value="<5">Less than 5 lakh</option>
+        <option value=">5">Greater than 5 lakh</option>
+      </select>
+    </div>
+    <br>
+    <div>
+      <label for="Feedback">Rating</label>
+      <input type="range" id="Feedback" name="Star" min="1" max="5" value="5">
+    </div>
+    <br>
+    <div>
+      <label for="Feedback">Enter your Valuable Suggestion</label>
+      <br>
+      <textarea id="Feedback" placeholder="Write your Feedback Here" name="Feedback" rows="4" cols="30"></textarea>
+    </div>
+    
+    <br>
+    
+      <input type="checkbox" id="terms" checked>
+      <label for="terms">I agree to all Terms and Conditions</label>
+      <br>
+      
+      <button style="color:blue; background-color:green;">Submit</button>
+      <button type="reset" style="background-color:red;">Reset</button>
+    </form>
+    <br>
+    <div align="center">Made with &hearts; & Coding by TIWARI JI</div>
+    
+  </body>
+</html>
